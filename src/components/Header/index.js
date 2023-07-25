@@ -6,8 +6,8 @@ export default function Header(){
     return(
         <header className={styles.header}>
             <Image
-            width={300}
-            height={300}
+            width={70}
+            height={120}
             src="/logoSemFundo.png"
             alt="Picture of the author"
             className={styles.logo}
