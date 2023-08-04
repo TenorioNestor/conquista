@@ -1,0 +1,25 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #2E2E2E;
+    height: 300px;
+    width: 100%;
+}
+.redes{
+    margin-right:50px ;
+}
+.icons{
+    margin-right: 30px;
+}
+.logo{
+
+}
+.contatos{
+    margin-left: 50px;
+}
+.contatos p{
+    color: #000;
+    font-size: 16pt;
+}

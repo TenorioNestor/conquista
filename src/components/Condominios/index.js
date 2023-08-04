@@ -1,10 +1,14 @@
+import * as React from 'react';
+import Button from '@mui/material/Button';
 import Image from 'next/image'
 import GarageIcon from '@mui/icons-material/Garage';
 
-export default function Condominios(){
-    return(
-        <>
-        <section>
+
+export default function Condominios() {
+  return (
+    <>
+      <section>
+        <div>
           <div>
             <h2>Condominio II</h2>
             <ul>
@@ -14,7 +18,16 @@ export default function Condominios(){
               <li>2 Quartos</li>
             </ul>
           </div>
-        </section>
-        </>
-    )
+          <div>Imagem</div>
+        </div>
+        {/* <div>
+          <Button variant="text">Text</Button>
+          <Button variant="contained">Contained</Button>
+          <Button variant="outlined">Outlined</Button>
+
+        </div> */}
+
+      </section>
+    </>
+  )
 }

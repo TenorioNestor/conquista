@@ -4,6 +4,8 @@ import Header from '../components/Header/index';
 import Script from 'next/script'
 import styles from '../styles/Home.module.css'
 import Carrocel from '../components/Carrocel/index'
+import Condominios from '@/components/Condominios';
+import Footer from '@/components/Footer';
 
 
 export default function Home() {
@@ -35,6 +37,8 @@ export default function Home() {
           <p>Bem-vindo à ConstruConquista! Somos uma empresa dedicada à excelência na construção e realização de sonhos. Com uma história sólida e tradição no mercado, buscamos oferecer soluções de engenharia e construção com qualidade, inovação e comprometimento.</p>
           </div>
         </section>
+        <Condominios/>
+        <Footer/>
       </main>
     </>
   );
