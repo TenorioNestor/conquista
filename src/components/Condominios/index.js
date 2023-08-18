@@ -1,4 +1,5 @@
 import * as React from 'react';
+import styles from './styles.module.css'
 import Button from '@mui/material/Button';
 import Image from 'next/image'
 import GarageIcon from '@mui/icons-material/Garage';
@@ -7,9 +8,9 @@ import GarageIcon from '@mui/icons-material/Garage';
 export default function Condominios() {
   return (
     <>
-      <section>
-        <div>
-          <div>
+      <section className={styles.section}>
+        <div className={styles.container}>
+          <div className={styles.lista}>
             <h2>Condominio II</h2>
             <ul>
               <li>2 Vagas de Garagem</li>
@@ -18,7 +19,9 @@ export default function Condominios() {
               <li>2 Quartos</li>
             </ul>
           </div>
-          <div>Imagem</div>
+          <div className={styles.imagem}>
+            Imagem
+          </div>
         </div>
         {/* <div>
           <Button variant="text">Text</Button>

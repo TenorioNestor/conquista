@@ -19,8 +19,8 @@ export default function Footer(){
                 </div>
                 <div className={styles.logo}>
                     <Image
-                    width={400}
-                    height={300}
+                    width={250}
+                    height={200}
                     src="/logoSemFundo.png"
                     alt="Picture of the author"
                     className={styles.foto}
