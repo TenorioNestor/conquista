@@ -1,0 +1,28 @@
+.section{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.lista{
+    padding: 50px 0px 50px 20%;
+    color: #1E1E1E;
+}
+.lista h2{
+    padding-bottom: 15px;
+    font-size: 25pt;
+}
+.lista ul{
+    list-style: none;
+    font-size: 16pt;
+}
+.lista li{
+       padding-bottom: 30px;
+
+}
+
