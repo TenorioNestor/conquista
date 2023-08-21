@@ -20,7 +20,13 @@ export default function Condominios() {
             </ul>
           </div>
           <div className={styles.imagem}>
-            Imagem
+            <Image
+              width={300}
+              height={400}
+              src="/imagemProjeto.png"
+              alt="Imagem de um projeto"
+              className={styles.imagemConfig}
+              />
           </div>
         </div>
         {/* <div>

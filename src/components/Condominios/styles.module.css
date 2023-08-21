@@ -10,7 +10,7 @@
     justify-content: space-between;
 }
 .lista{
-    padding: 50px 0px 50px 20%;
+    padding: 50px 5px 50px 20%;
     color: #1E1E1E;
 }
 .lista h2{
@@ -24,5 +24,11 @@
 .lista li{
        padding-bottom: 30px;
 
+}
+.imagem{
+    margin: 50px 20% 50px 5px ;
+}
+.imagemConfig{
+    border-radius: 20px;
 }
 
