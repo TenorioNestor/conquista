@@ -25,10 +25,29 @@
        padding-bottom: 30px;
 
 }
+.list{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    margin-right: 70px;
+}
 .imagem{
     margin: 50px 20% 50px 5px ;
 }
 .imagemConfig{
     border-radius: 20px;
+}
+.buttondiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.button{
+    padding: 10px 100px;
+    border: 2px solid #1E1E1E ;
+    border-radius: 10px;
+    color: #1E1E1E;
 }
 
