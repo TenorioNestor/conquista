@@ -7,6 +7,7 @@ import Condominios from '@/components/Condominios';
 import Footer from '@/components/Footer';
 
 
+
 export default function Home() {
   return (
     <>
