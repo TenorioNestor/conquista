@@ -16,13 +16,10 @@ export default function Header(){
                 <Link href='/' className={styles.link}>
                     Home
                 </Link>
-                <Link href='/' className={styles.link}>
-                    Empreendimentos
+                <Link href='/sobre' className={styles.link}>
+                    Sobre nós
                 </Link>
-                <Link href='/' className={styles.link}>
-                    Sobre
-                </Link>
-                <Link href='/' className={styles.link}>
+                <Link href='/contatos' className={styles.link}>
                     Contatos
                 </Link>
             </nav>
