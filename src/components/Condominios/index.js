@@ -32,7 +32,9 @@ export default function Condominios() {
           </div>
         </div>
         <div className={styles.buttondiv}>
-          <Button variant="outlined" className={styles.button}>Verificar unidades disponíveis</Button>
+          <Button variant="outlined" className={styles.button}>
+            Verificar unidades disponíveis
+          </Button>
         </div> 
 
       </section>
