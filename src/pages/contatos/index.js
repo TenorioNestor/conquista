@@ -1,7 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Head from "next/head";
-import Banner from "@/components/Banner";
+import styles from "./styles.module.css";
 export default function contatos(){
     return (
         <>
@@ -14,7 +14,11 @@ export default function contatos(){
           </Head>
           <main>
             <Header />
-            <Banner/>
+            <div className={styles.banner}>
+              <h1>
+                Contatos
+              </h1>
+            </div>
             <Footer/>
           </main>
         </>

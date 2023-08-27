@@ -2,7 +2,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Head from "next/head";
 import Valores from "@/components/Valores";
-import Banner from "@/components/Banner";
+import styles from "./styles.module.css";
+
 export default function sobre(){
     return (
         <>
@@ -15,7 +16,11 @@ export default function sobre(){
           </Head>
           <main>
             <Header />
-            <Banner/>
+            <div className={styles.banner}>
+              <h1>
+                Sobre Nós
+              </h1>
+            </div>
             <Valores/>
             <Footer/>
           </main>

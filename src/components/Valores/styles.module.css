@@ -12,9 +12,8 @@
 .escudo{
     height: 300px;
     width: 250px;
-    background: rgb(199,148,22);
-    background: radial-gradient(circle, rgba(199,148,22,1) 1%, rgba(217,169,16,1) 42%, rgba(255,215,2,1) 88%);
-    color: #000;
+    background: #2E2E2E;
+    color: #fff;
     border-radius: 0px 0px 50px 50px;
     text-align: center;
     padding: 10px;
@@ -22,9 +21,8 @@
 .escudoClaro{
     height: 300px;
     width: 250px;
-    background: rgb(199,148,22);
-    background: radial-gradient(circle, rgba(199,148,22,1) 1%, rgba(217,169,16,1) 42%, rgba(255,215,2,1) 88%);
-    color: #000;
+    background: #787878;
+    color: #fff;
     border-radius: 0px 0px 50px 50px;
     text-align: center;
     padding: 10px;

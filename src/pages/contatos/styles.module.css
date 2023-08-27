@@ -1,0 +1,14 @@
+.banner{
+    height: 300px;
+    width: 100%;
+    background: url(https://img.freepik.com/fotos-gratis/mulher-mao-segurando-telefone-tela-vazia-tela-copie-o-espaco-hand-holding-smartphone-isolado-no-fundo-branco_1150-2239.jpg?w=996&t=st=1693146713~exp=1693147313~hmac=dbfc170d84e9163ee679191ae8d5adbc8daa3e221b04d825f69bae89196bf652)no-repeat;
+    background-size: cover;
+}
+.banner h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10%;
+    font-size: 50pt;
+    font-weight: bold;
+}
