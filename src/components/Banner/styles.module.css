@@ -1,0 +1,13 @@
+.container{
+    height: 300px;
+    width: 100%;
+    background: url(https://img.freepik.com/fotos-gratis/pessoas-de-forca-reuniao-de-sucesso-das-maos_1150-1690.jpg?w=996&t=st=1693096619~exp=1693097219~hmac=0e9d93f001fb3d42e53fd1177a5dace278f07612575dc2e21513513a51a53da7) no-repeat;
+}
+.container h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10%;
+    font-size: 50pt;
+    font-weight: bold;
+}
