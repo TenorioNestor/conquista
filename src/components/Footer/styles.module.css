@@ -41,12 +41,17 @@
         display: flex;
         flex-direction: row;
     }
+    .icons{
+        width: 30px;
+        height: 30px;
+    }
     .contatos{
-        margin: 20px 0px ;
+        margin: 10px 0px ;
         padding: 0px;
     }
     .contatos p{
         color: #fff;
+        font-size: 12pt;
     }
 
 }

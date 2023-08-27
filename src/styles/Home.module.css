@@ -13,7 +13,7 @@
   justify-content: center;
   justify-content: space-between;
   background: rgb(0,0,0);
-  background: linear-gradient(0deg, rgba(0,0,0,1) 58%, rgba(72,72,72,1) 100%);  width: 100%;
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(34,34,34,1) 14%, rgba(72,72,72,1) 29%);
   height: 400px;
 }
 .logo{

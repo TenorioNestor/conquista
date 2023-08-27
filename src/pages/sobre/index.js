@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Head from "next/head";
+import Valores from "@/components/Valores";
 export default function sobre(){
     return (
         <>
@@ -14,11 +15,7 @@ export default function sobre(){
           <main>
             <Header />
             <div>Baner quem somos</div>
-            <section>
-              <div>Missao</div>
-              <div>Visao</div>
-              <div>Valores</div>
-            </section>
+            <Valores/>
             <Footer/>
           </main>
         </>
