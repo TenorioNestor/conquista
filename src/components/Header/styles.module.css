@@ -5,7 +5,9 @@
     align-items: centers;
     justify-content: space-between;
     background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 58%, rgba(72,72,72,1) 100%);}
+    background: linear-gradient(180deg, rgba(0,0,0,1) 58%, rgba(72,72,72,1) 100%);
+    padding: 20px 0px 20px 20px;
+}
 .nav{
     display: flex;
     flex-direction: row;
@@ -25,6 +27,17 @@
     margin-left: 5%;
     padding: 0;
     width: 15%;
+}
+.logoPequeno{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.line{
+    margin-top: 10px;
+    width: 75px;
+    height: 1px;
+    background: #FFF;
 }
 
 @media screen and (max-width:1048px) {

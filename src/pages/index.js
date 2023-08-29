@@ -29,6 +29,7 @@ export default function Home() {
             src="/logoSemFundo.png"
             alt="Picture of the author"
             />
+
           </div>
           <div className={styles.texto}>
           <h1>Sobre a Conquista</h1>
