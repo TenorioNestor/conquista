@@ -5,12 +5,12 @@ export default function Carrocel(){
     return (
         <section className={styles.section}>
             <Image
-            width={1000}
-            height={345}
-            src="/predio_novo_arvore.jpg"
+            width={570}
+            height={370}
+            src="/logoSemFundo.png"
             alt="Picture of the author"
             className={styles.foto}
-            />
+            /> 
         </section>
     )
 }
