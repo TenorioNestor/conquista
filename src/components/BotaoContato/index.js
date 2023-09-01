@@ -9,12 +9,12 @@ import styles from './styles.module.css'
 export default function BotaoContato(){
     return(
         <>
-            <button className={styles.button}>
-                <Fab variant="extended">
-                    <WhatsAppIcon sx={{ mr: 1 }} />
-                    Vamos conversar
-                </Fab>
-            </button>
+            
+            <Fab variant="extended">
+                <WhatsAppIcon sx={{ mr: 1 }} />
+                Vamos conversar
+            </Fab>
+            
         </>
     )
 }

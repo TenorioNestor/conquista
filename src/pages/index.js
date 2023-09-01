@@ -6,6 +6,7 @@ import Carrocel from '../components/Carrocel/index'
 import Condominios from '@/components/Condominios';
 import Footer from '@/components/Footer';
 import Iframe from 'react-iframe';
+import SimpleSlide from '../components/SimpleSlide'
 
 
 
@@ -24,13 +25,14 @@ export default function Home() {
         <Carrocel/>
         <section className={styles.sobre}>
           <div className={styles.logo}>
-          <Iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3513.4975998034856!2d-49.163884188425186!3d-28.28324695175841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952111d1878cd775%3A0x896e41cf4964d1bd!2sConquista%20Construtora%20e%20Incorporadora!5e0!3m2!1spt-BR!2sbr!4v1693492313712!5m2!1spt-BR!2sbr" className={styles.maps} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"/>
+          <Iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3513.4975998034856!2d-49.163884188425186!3d-28.28324695175841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952111d1878cd775%3A0x896e41cf4964d1bd!2sConquista%20Construtora%20e%20Incorporadora!5e0!3m2!1spt-BR!2sbr!4v1693492313712!5m2!1spt-BR!2sbr" className={styles.maps} allowfullscreen="" details="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade" active_panel="true"/>
 
           </div>
           <div className={styles.texto}>
           <h1>Estamos Localizados</h1>
-          <h2>Qualidade em contruçao</h2>
-          <p>Bem-vindo à ConstruConquista! Somos uma empresa dedicada à excelência na construção e realização de sonhos. Com uma história sólida e tradição no mercado, buscamos oferecer soluções de engenharia e construção com qualidade, inovação e comprometimento.</p>
+          <h2>Proximo da ...</h2>
+          <p>Na rua Jose, Bairro Centro</p>
+          <p>Braço do Norte</p>
           </div>
         </section>
         <Condominios/>
